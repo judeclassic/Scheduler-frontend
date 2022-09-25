@@ -33,7 +33,15 @@ const SignInPage = ({setPageState}) => {
     }
 
     return (
-        <SignIn email={email} password={password} checked={checked} handleEntry={handleEntry} handleSubmit={handleSubmit} toRegistration={toRegistration} error={error}/>
+        <SignIn
+            email={email}
+            password={password}
+            checked={checked}
+            handleEntry={handleEntry}
+            handleSubmit={handleSubmit}
+            toRegistration={toRegistration}
+            error={error}
+        />
     )
 }
 
